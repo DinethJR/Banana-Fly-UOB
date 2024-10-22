@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Bird</title>
+    <link rel="stylesheet" href="banana.css">
+    <script src="bananabird.js" defer></script> <!-- JS loads after HTML -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Login Page to enter the player name -->
+    <div id="loginPage">
+        <h1>Enter Player Name</h1>
+        <input type="text" id="playerName" placeholder="Player Name">
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <!-- Game page with the canvas for the game -->
+    <div id="gamePage" style="display: none;">
+        <canvas id="board"></canvas>
+    </div>
+</body>
+</html>
